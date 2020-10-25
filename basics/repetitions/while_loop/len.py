@@ -1,10 +1,11 @@
-print("Please enter a phrase:")
-phrase = input()
+def run():
+  print("Please enter a phrase:")
+  phrase = input()
 
-length = len(phrase)
+  length = len(phrase)
 
-repetitions = 0
+  repetitions = 0
 
-while (repetitions < length):
-  print(phrase, end=" ")
-  repetitions += 1
+  while (repetitions < length):
+    print(phrase, end=" ")
+    repetitions += 1

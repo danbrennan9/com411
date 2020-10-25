@@ -1,2 +1,3 @@
 # Display message to the standard output
-print("System failure imminent!")
+def run():
+   print("System failure imminent!")
