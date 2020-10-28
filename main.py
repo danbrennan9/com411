@@ -5,7 +5,7 @@ import basics.decisions.nested_decision.nested as decisions_nested_decision_nest
 import basics.decisions.simple_decision.comparison_operators as decisions_simple_decision_comparison_operators
 import basics.decisions.simple_decision.counter as decisions_simple_decision_counter
 import basics.decisions.simple_decision.if_elif_else as decisions_simple_decision_if_elif_else
-import basics.decisions.simple_decision.if_else as decisions_simple_decision_if_elif_else
+import basics.decisions.simple_decision.if_else as decisions_simple_decision_if_elif
 import basics.decisions.simple_decision.if_ as decisions_simple_decision_if
 import basics.decisions.simple_decision.modulo_operator as decisions_simple_decision_modulo_operator
 import basics.decisions.and_operator as decisions_and_operator
@@ -212,6 +212,6 @@ def run():
       break
 
     else:
-      print("Invalid option! Please try again")
+      print("Invalid option! Please try again.")
       
 run()
