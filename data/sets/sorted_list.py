@@ -7,27 +7,32 @@ def observed():
 
   return observations #return list to function
 
-def remove_observations(observation):
-  print("Do you wish to remove any observations?")
-  answer = input()
+def remove_observations(observations): #stores the list from function 1 for changing
+  running = True #sets the bolean to true
 
-  remove_observations = True
+  while (running): #while the variables bolean is true
 
-  while remove_observations = True
-    if answer = "yes".lower
-    print("What observation would you like to remove?")
-    removed_observation = input()
-    removed_observations.remove(removed_observation) 
+    print("Do you wish to remove an observation?")
+    answer = input()
+
+    
+    
+    if (answer == "yes"):
+      print("What observation would you like to remove?")
+      removed = input() #input
+      observations.remove(removed) #whatever input user types, remove that input from the observations list
+    
     else:
-      remove_observations = False
+      running = False
 
 
 
 def run():
-  print("Counting observations...")
-  observations = observed() #declaring function in local variable
-  unique_observed = set() #initalising set
+  observations = observed() #declaring function in local variable and adds original observations list
+  remove_observations(observations) #adds removed observation
   
+  
+  unique_observed = set() #initalising set
   for observation in observations: #for each 'key'(observations) in observations,do the follow:
     occurences = observations.count(observation) #occurences is equal to the count of how many 'keys' (observations) there are in observations in total
     unique_observed.add( (observation, occurences) ) #for each unique 'key' counted, add the key and its occurences to a tuple
