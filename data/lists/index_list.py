@@ -1,3 +1,5 @@
+
+#see populate_list.py for more complex demonstration
 def movements():
   path = ["Move foward", 10, "Move backward", 5, "Move left", 3, "Move right", 1]
   return path

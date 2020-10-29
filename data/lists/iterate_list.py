@@ -1,3 +1,4 @@
+#see populate_list.py for more complex demonstration
 def directions():
   directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
   return directions
