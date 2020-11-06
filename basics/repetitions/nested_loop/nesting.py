@@ -21,3 +21,4 @@ def run():
 
   # Display result
   print("The distance between the markers is", marker2_position - marker1_position - 1)
+
