@@ -192,6 +192,9 @@ def run_block_a():
 
   elif (response == "functions_function_calls"):
     functions_function_calls.run()
+    
+  else:
+    print("I don't understand what you mean.")
 
 #interface
 def run():
