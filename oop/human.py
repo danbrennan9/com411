@@ -10,6 +10,12 @@ class Human: #class
   def display(self): #function to display text
     print(f"I am a {self.name}")
 
+  def __repr__(self): #format string representation of object
+    return f'robot(name={self.name}, age={self.age})'
+
+  def __str__(self): #informal
+    return f'My name is {self.name} and I am {self.age} years old.'
+
 if (__name__ == "__main__"): 
   human = Human() #create an object
   human.display() #display it
