@@ -3,7 +3,7 @@ from robot import Robot
 
 class Planet:
 
-  def __init__(self):
+  def __init__(self): #dictionary containing two attributes
     self.inhabitants = {
       'humans':[],
       'robots':[]
@@ -11,7 +11,7 @@ class Planet:
 
 
   def add_human(self, Human):
-    self.inhabitants['humans'].append(Human)
+    self.inhabitants['humans'].append(Human) #add a human to humans list in dict
 
   def add_robot(self, Robot):
     self.inhabitants['robots'].append(Robot)
